@@ -7,45 +7,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="html folder/pxArt.png" type="image/x-icon">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+<style>
+    body {
+        background-color: rgb(122, 199, 202);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+</style>
 
-<body style="background-color: lightyellow;">
+<body>
     <header>
-        <h2><b><i>Zaid Rustamov </i></b> &#x1F60E;</h2>
-        <br>
-        <br>
-
         <table>
             <tr>
-                <th><img src="html folder\Profile.jpg" target="_blank" width="300" alt="logo"> </img>
-                </th>
-                <td>
+                <th>
                     <div>
-                        <ul>
-                            <li>
-                                <a href="#Bio">Bio</a>
-                            </li>
-                            <li>
-                                <a href="#Hobbies">Hobbies</a>
-                            </li>
-                            <li>
-                                <a href="#Skills">Professonal skills</a>
-                            </li>
-                            <li>
-                                <a href="#Links">External Links</a>
-                            </li>
-                            <li>
-                                <a href="#Contacts">Contact</a>
-                            </li>
-                        </ul>
+                        <td><a href="#Bio">Bio</a></td>
+                        <td><a href="#Hobbies">Hobbies</a></td>
+                        <td><a href="#Skills">Skills</a></td>
+                        <td><a href="#Links">Links</a></td>
+                        <td><a href="#Contacts">Contact</a></td>
                     </div>
+                </th>
+            </tr>
 
+        </table>
+        <style>
+            h1 {
+                text-align: center;
+            }
+            
+            img {
+                border-radius: 100%;
+            }
+            
+            table {
+                margin-left: 30px;
+            }
+            
+            p {
+                margin-left: 40px;
+            }
+            
+            h3 {
+                margin-left: 20px;
+            }
+        </style>
+        <br>
+        <br>
+        <h1><b>Zaid Rustamov</b> &#x1F642;</h1>
+        <table>
+            <tr>
+                <td>
+                    <img src="Profile.jpg" target="_blank" width="300" alt="logo"> </img>
+                </td>
+                <td>
+
+                    <h3 style="background-color: rgb(255, 255, 255);" id="Bio"><u>Bio</u></h3>
+                    <p>
+                        <b><i>Zaid Rustamov</i></b> was born in 2001, <i>Lerik <a href="https://www.instagram.com/lerik_anceqev_kendi/" target="_blank">Anceeqev </a></i>, one of the remote district of Azerbaijan. He has finished his secondary school in
+                        2019 with high performance. He also won some competitions from Math, Chemistry among school children. That year, he also participated in the university entrance exam, his score was 647 out of 700. After successfully finishing school
+                        and gaining highmark made him admit to Ada University. He has been studying for 3 years at ADA University at Computer Science major. He is expected to finish the university in may, 2024.
+                    </p>
                 </td>
             </tr>
         </table>
 
-
-
+        <br>
         <br>
 
     </header>
@@ -54,66 +82,42 @@
 
         <br>
         <br>
-        <h3 style="background-color: rgb(151, 175, 149);" id="Bio">
-            <u>Bio</u>
-        </h3>
-        <p>
-            <b><i>Zaid Rustamov</i></b> was born in 2001, <i>Lerik <a href="https://www.instagram.com/lerik_anceqev_kendi/" target="_blank">Anceeqev </a></i>, one of the remote district of Azerbaijan. He has finished his secondary school in 2019 with
-            high performance. He also won some competitions from Math, Chemistry among school children. That year, he also participated in the university entrance exam, his score was 647 out of 700. After successfully finishing school and gaining highmark
-            made him admit to Ada University. He has been studying for 3 years at ADA University at Computer Science major. He is expected to finish the university in may, 2024.
-        </p>
+
         <br>
         <br>
         <h3 id="Hobbies" style="background-color: rgb(197, 157, 187);">
             <u>Hobbies</u>
         </h3>
-        <table border="1">
-            <tbody>
-                <tr>
-                    <th scope="row">Nums</th>
-                    <td>
-                        Hobbies
-                    </td>
-
-                </tr>
-                <tr>
-                    <th>1</th>
-                    <td>Codding in Java &#11088; &#11088;</td>
-                </tr>
-                <tr>
-                    <th>2</th>
-                    <td>Solving problems (in Eolymp, HackerRank) &#11088; &#11088; &#11088; &#11088;
-                    </td>
-                </tr>
-                <tr>
-                    <th>3</th>
-                    <td>Playing, watching futboll &#11088;</td>
-                </tr>
-                <tr>
-                    <th>4</th>
-                    <td>Reading religious, dedective Books &#11088; &#11088; &#11088;</td>
-                </tr>
-                <tr>
-                    <th>5</th>
-                    <td>Cooking odd meals &#11088;</td>
-                </tr>
-                <tr>
-                    <th>6</th>
-                    <td>Solving problems in Math &#11088; &#11088;</td>
-                </tr>
-                <tr>
-                    <th>7</th>
-                    <td>Watching Comedies on Youtube &#11088; &#11088; &#11088; &#11088; </td>
-                </tr>
-            </tbody>
-        </table>
+        <ul class="italic-text">
+            <li>
+                Codding in Java &#11088; &#11088; &#11088;
+            </li>
+            <li>
+                Solving problems (in Eolymp, HackerRank) &#11088; &#11088; &#11088; &#11088;
+            </li>
+            <li>
+                Playing, watching futboll &#11088;
+            </li>
+            <li>
+                Reading religious, dedective Books &#11088; &#11088; &#11088;
+            </li>
+            <li>
+                Cooking odd meals &#11088;
+            </li>
+            <li>
+                Solving problems in Math &#11088; &#11088;
+            </li>
+            <li>
+                Watching Comedies on Youtube &#11088;
+            </li>
+        </ul>
         <br>
         <br>
         <h3 id="Skills" style="background-color: rgb(187, 231, 238);">
             <u> Professional Skills</u>
         </h3>
 
-        <p>
+        <p id="text-format">
             He feels well in programming. He mainly uses java while writing codes for problems. He is able to write small projects in java. Additionally, he interests in HTML and CSS. As a third year student, he sees himself in Fullstack Developer, or in Software
             Engineer.
         </p>
@@ -134,7 +138,7 @@
             </nav>
             <br>
             <br>
-            <video src="html folder/Futbool.mp4" controls poster="html folder/forposter.jpg" height="200" width="300"> Playing Futbool </video>
+            <video src="Futbool.mp4" controls poster="forposter.jpg" height="200" width="300"> Playing Futbool </video>
         </p>
         <br>
         <br>
@@ -143,41 +147,29 @@
             You can contact with me via Instagram, Facebook, or Email.
         </p>
 
-        <table border="1">
-            <tbody>
-                <tr>
-                    <th scope="row">Choice</th>
-                    <td>
-                        Contacts
-                    </td>
+        <ul>
+            <li>
+                <a href="https://www.instagram.com/zaidrustamov/" target="_blank">Instagram</a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/zaid.rustamov.7" target="_blank">Facebook</a>
+            </li>
+            <li>
+                <a href="mailto:rustamov.zaid@gmail.com">Email</a>
+            </li>
+            <li>
+                <a href="tel: +9940508934571">Phone</a>
+            </li>
+        </ul>
 
-                </tr>
-                <tr>
-                    <th>1</th>
-                    <td><a href="https://www.instagram.com/zaidrustamov/" target="_blank">Instagram</a></td>
-                </tr>
-                <tr>
-                    <th>2</th>
-                    <td><a href="https://www.facebook.com/zaid.rustamov.7" target="_blank">Facebook</a></td>
-                </tr>
-                <tr>
-                    <th>3</th>
-                    <td><a href="mailto:rustamov.zaid@gmail.com">Email</a></td>
-                </tr>
-                <tr>
-                    <th>4</th>
-                    <td><a href="tel: +9940508934571">Phone</a></td>
-                </tr>
-            </tbody>
-        </table>
         <p>Also, you can email to me from here.</p>
         <form action="mailto: rustamov.zaid@gmail.com">
-            <input type="text" name = "Name" placeholder="Full Name" required> <br> <br>
+            <input type="text" name="Name" placeholder="Full Name" required> <br> <br>
             <input type="email" name="Email" placeholder="Email" required><br><br>
-            <textarea name="Message" placeholder="Message" required cols="30" rows = "10"></textarea> <br> <br>
+            <textarea name="Message" placeholder="Message" required cols="30" rows="10"></textarea> <br> <br>
             <button type="submit">Send</button>
-            </form>
-            </main>
+        </form>
+    </main>
 </body>
 
 </html>
