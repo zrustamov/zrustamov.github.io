@@ -1,0 +1,51 @@
+a:link {
+    color: #FF0000;
+}
+
+
+/* visited link */
+
+a:visited {
+    font-size: large;
+    color: #ff0000;
+}
+
+
+/* mouse over link */
+
+a:hover {
+    font-size: large;
+    color: #00f7ff;
+    transition: 3s;
+}
+
+
+/* selected link */
+
+a:active {
+    font-size: large;
+    color: #e5ff00;
+    transition: 3s;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-style: oblique;
+}
+
+ul {
+    font-size: 18px;
+}
+
+.italic-text {
+    font-style: italic;
+}
+
+.text-format {
+    font-size: 50px;
+}
