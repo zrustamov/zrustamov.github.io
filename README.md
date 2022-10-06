@@ -1,1 +1,1 @@
-zrustamov.github.io
+https://zrustamov.github.io/
