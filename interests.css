@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(99, 97, 97);
+}
+
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    width: 50%;
+    height: 50vh;
+    float: left;
+}
+
+#div1 {
+    background: rgb(255, 255, 255);
+}
+
+#div2 {
+    background: lightyellow;
+}
+
+#div3 {
+    background: lightgreen;
+}
+
+#div4 {
+    background: rgb(216, 187, 222);
+}
+
+.nav {
+    font-family: Poppins, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    margin: 0;
+    opacity: 0.70;
+    white-space: nowrap;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 0 25px 1px 25px;
+    font-size: 16px
+}
+
+.nav li a {
+    text-decoration: none;
+    color: rgb(244, 6, 6);
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.nav li a:link {
+    color: rgb(38, 35, 190);
+}
+
+
+/* visited link */
+
+.nav li a:visited {
+    font-size: large;
+    color: rgb(255, 251, 251);
+}
+
+
+/* mouse over link */
+
+.nav li a:hover {
+    font-size: large;
+    color: #0824ac;
+    transition: 3s;
+}
+
+
+/* selected link */
+
+.nav li a:active {
+    font-size: large;
+    color: #f70008;
+    transition: 3s;
+}
+
+img {
+    margin: 50px 170px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 220px;
+}
+
+video {
+    margin: 50px 170px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 220px;
+}
+
+h3 {
+    text-align: center;
+}
