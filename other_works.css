@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(99, 97, 97);
+}
+
+body {
+    /* background-image: url(/image-folder/back-image4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; */
+    background-color: lightyellow;
+}
+
+.nav {
+    font-family: Poppins, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    margin: 0;
+    opacity: 0.70;
+    white-space: nowrap;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 0 25px 1px 25px;
+    font-size: 16px
+}
+
+.nav li a {
+    text-decoration: none;
+    color: rgb(244, 6, 6);
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.nav li a:link {
+    color: rgb(38, 35, 190);
+}
+
+
+/* visited link */
+
+.nav li a:visited {
+    font-size: large;
+    color: rgb(255, 251, 251);
+}
+
+
+/* mouse over link */
+
+.nav li a:hover {
+    font-size: large;
+    color: #0824ac;
+    transition: 3s;
+}
+
+
+/* selected link */
+
+.nav li a:active {
+    font-size: large;
+    color: #f70008;
+    transition: 3s;
+}
+
+.container {
+    display: flex;
+}
+
+.container>div {
+    width: 30%;
+}
+
+.box2 {
+    background-color: white;
+    margin: 30px;
+    padding: 20px;
+    border: 2px solid red;
+}
+
+a {
+    text-decoration: none;
+}
