@@ -50,6 +50,7 @@ header {
     font-size: large;
     color: #0824ac;
     transition: 3s;
+    background-color: #a7c814;
 }
 
 
@@ -86,7 +87,7 @@ body {
 .top {
     width: 50%;
     height: 200px;
-    background-image: url('/image-folder/prof-img.jpeg');
+    background-image: url('/image-folder/img_me_atADA.jpeg');
     background-size: cover;
     background-position: center;
     border-radius: 100px;
