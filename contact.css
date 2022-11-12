@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightblue;
+}
+
+.navbar {
+    text-align: center;
+    height: 50px;
+    background-color: #000000;
+    padding-top: 25px;
+    width: 100%;
+    border-bottom-style: solid;
+    border-bottom-width: 1.5px;
+    border-bottom-color: #ffffff;
+    font-size: 15px;
+}
+
+.navbar>ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+.navbar>ul>li>a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar>ul>li>a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid;
+    padding-bottom: 1.5px;
+    border-bottom-color: #ffffff;
+}
+
+
+/* h1 {
+    text-align: center;
+    margin-top: 6vw;
+} */
+
+#contact_main {
+    margin-top: 2%;
+}
+
+.container {
+    text-align: center;
+}
+
+.submission_form>form>ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.submission_form>form>ul>li {
+    padding-top: 25px;
+}
+
+.submission_form>form>ul>li>p {
+    font-size: 30px;
+}
+
+.submission_form>form>ul>li>input {
+    width: 350px;
+    color: black;
+    border: 1px solid grey;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.submission_form>form>ul>li>input[type="text"] {
+    height: 25px;
+}
+
+.submission_form>form>ul>li>input[type="email"] {
+    height: 25px;
+}
+
+.submission_form>form>ul>li>input[type="submit"] {
+    width: 180px;
+    height: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.submission_form>form>ul>li>input[type="submit"]:hover {
+    height: 30px;
+    background-color: black;
+    color: black;
+    transition: 0.2s;
+}
+
+.submission_form>form>ul>li>textarea {
+    width: 350px;
+    height: 200px;
+    resize: none;
+    color: black;
+    border: 1px solid grey;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+    .container {
+        text-align: left;
+    }
+    .submission_form>form>ul>li>input {
+        width: 80%;
+    }
+    .submission_form>form>ul>li>textarea {
+        width: 80%;
+    }
+}
