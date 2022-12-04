@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather_Teller</title>
+    <link rel="stylesheet" href="weather_teller.css">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/1779/1779940.png" type="image/x-icon">
+<!-- </head>
+<header>
+    <div class="navbar">
+        <ul>
+            <li><a href="about.html" target="_blank">About</a></li>
+            <li><a href="contact.html" target="_blank">Contact</a></li>
+            <li><a href="homework-1.html" target="_blank">Digital Card</a></li>
+            <li><a href="gallery.html" target="_blank">Gallery</a></li>
+            <li><a href="interests.html" target="_blank">Interests</a></li>
+            <li><a href="https://github.com/zrustamov" target="_blank">GitHub</a></li>
+            
+        </ul>
+    </div>
+</header> -->
+<body>
+    <div class="weather-app">
+        <div class="container">
+            <h3 class="brand">the weather</h3>
+            <div>
+                <h1 id="temp">16&#176;</h1>
+                <div class="city-time">
+                    <h1 id="name">London</h1>
+                    <small>
+                        <span id="country">Azerbaijan</span>
+                        <span id="time">22:27</span>
+                        <span id="date">04/12/2022</span>
+                    </small>
+                </div>
+                <div class="weather">
+                    <span id="condition">Cloudy</span>
+                </div>
+            </div>
+        </div>
+        <div class="panel">
+            <ul>
+                <li id="f1">
+                    <form class="locationInput" id="formCity">
+                        <input type="text" id="searchCity" class="search" placeholder="City Name" />
+                        <button type="submit" class="submit" onclick="f1()">Search</button>
+                    </form>
+                </li>
+
+                <li id="f2">
+                    <form class="locationInput" id="formLatLong">
+                        <input type="text" id="searchLatLong" class="search" placeholder="Latitude and Longtitude">
+                        <button type="submit" class="submit" onclick="f2()">Search</button>
+                    </form>
+                </li>
+
+                <li id="f3">
+                    <form class="locationInput" id="formLoc">
+                        <input type="text" id="searchLoc" class="search" placeholder="Current Locaiton" />
+                        <button type="submit" class="submit" onclick="f3()">Search</button>
+                    </form>
+                </li>
+            </ul>
+
+            <ul class="details">
+                <h4>Weather Details</h4>
+                <li>
+                    <span>Humidity</span>
+                    <span id="humidity">70%</span>
+                </li>
+                <li>
+                    <span>Wind</span>
+                    <span id="wind">10km/h</span>
+                </li>
+                <li>
+                    <span>Pressure</span>
+                    <span id="pressure">760</span>
+                </li>
+                <li>
+                    <span>min-temp / max-temp / real-feel</span>
+                    <span id="temp2">23</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="weather.teller.js"></script>
+</body>
+
+</html>
